@@ -20,7 +20,7 @@ Welcome to Trello Clone – a Trello-inspired task management application. This 
 
 ## Demo
 
-[Include a link to a demo or screenshots of your application]
+https://github.com/mr-j-shah/Trello_Clone/assets/79891868/0e64e9a2-1867-4b4a-b359-bdcf0fe605c9
 
 ## Getting Started
 
