@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="textfield_useredit_storke" parent="Widget.AppCompat.EditText">
+        <item android:state_focused="true" name="strokeWidth" tools:ignore="DuplicateDefinition">0dp</item>
+        <item android:state_hovered="true" name="strokeWidth">0dp</item>
+        <item android:color="@android:color/transparent" name="strokeWidth">0dp</item>
+    </style>
+</resources>

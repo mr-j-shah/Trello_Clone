@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screens_Activity.setting.User_Manual">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#1253AA"
+        android:theme="@style/ToolBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="User Manual"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Introduction"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Welcome to MyApp! MyApp is a  is a powerful and intuitive task management application inspired by Trello. It empowers users to streamline their projects, collaborate seamlessly, and stay organized. Whether you're a professional managing work tasks or an individual organizing personal projects, Trello offers a flexible and visual solution for everyone. designed to is designed with a singular purpose — to empower individuals and teams to efficiently organize, manage, and collaborate on projects. Whether you're a professional handling work tasks, a student managing assignments, or anyone with a list of to-dos, our app is here to simplify your task management experience. This user manual will guide you through the basic features and functionalities to help you get started."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Key Features:"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="1. Boards and Lists:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Create boards for your projects and break them down into customizable lists. Easily visualize the flow of your tasks from start to finish."
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="2. Task Cards:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Add and customize task cards within lists. Include details like due dates, descriptions, labels, and attachments to keep everything organized."
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="3. Collaboration and Sharing:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Collaborate with team members or share projects with friends. Assign tasks, leave comments, and stay in sync in real-time."
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="4. User-Friendly Interface:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Enjoy a clean and intuitive user interface designed for ease of use. Navigate seamlessly through boards, lists, and tasks."
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="5. Status Updates:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Track task progress with status updates. Move tasks from 'To Do' to 'Doing' to 'Done' with a few taps."
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="6. User Account Management:"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word"
+                android:text="Customize your profile, manage your account settings, and stay in control of your task management experience."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

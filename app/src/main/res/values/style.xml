@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Customize stroke width and color for normal state -->
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+
+        <!-- Customize stroke width and color for error state -->
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxStrokeErrorColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Button.Rounded
+        </item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="AppTheme.FabStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <!-- Customize the FAB background color -->
+        <item name="backgroundTint">#63D9F3</item>
+
+        <!-- Customize the FAB icon color -->
+        <item name="tint">@color/white</item>
+
+        <!-- Customize other FAB attributes as needed -->
+    </style>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="AppTheme.AutoCompleteTextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <!-- Customize the text color -->
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Remove the bottom border stroke -->
+        <item name="android:background">@null</item>
+    </style>
+</resources>

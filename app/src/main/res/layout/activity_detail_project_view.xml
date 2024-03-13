@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    tools:context=".Screens_Activity.setting.projects.Detail_Project_View">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#1253AA"
+        android:theme="@style/ToolBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Trello"
+
+        app:titleTextColor="@color/white">
+
+        <ImageView
+            android:id="@+id/edit_project"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_edit"
+            android:tint="@color/white" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_exercise" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="40dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#1253AA"
+        android:contentDescription="nextScreen"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Add Task"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:icon="@drawable/ic_fab_icon"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

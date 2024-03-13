@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_dialog_content"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Assigned To"
+        android:textColor="#05243E"
+        android:textSize="18sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="#05243E"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_organization"
+                app:tint="@color/white" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                style="@style/AppTheme.AutoCompleteTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:hint="Enter a name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                app:placeholderText="Organization" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_btn_yes"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0EA5E9"
+            android:gravity="center"
+            android:text="Cancle"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/dialog_btn_no"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0EA5E9"
+            android:gravity="center"
+            android:text="Update"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

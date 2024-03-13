@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Screens_Activity.subScreens.Screen_2">
+    <ProgressBar
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/page_title" />
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/AppTheme.FabStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+
+        android:src="@drawable/ic_fab_icon" />
+</FrameLayout>

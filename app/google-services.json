@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "763893518463",
+    "firebase_url": "https://trello-ab6c2-default-rtdb.firebaseio.com",
+    "project_id": "trello-ab6c2",
+    "storage_bucket": "trello-ab6c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763893518463:android:aeb9fde24114b5b6c9ef4a",
+        "android_client_info": {
+          "package_name": "com.crestinfosystems_jinay.trello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763893518463-cpqrdsl5pa8gp3spelhm5kjsvur2n9t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crestinfosystems_jinay.trello",
+            "certificate_hash": "6bcb449fed4f65c1876d3891f4e7cbf2c2f03603"
+          }
+        },
+        {
+          "client_id": "763893518463-l57r3kei54aeqfsmakn5e0tu10gm6bvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crestinfosystems_jinay.trello",
+            "certificate_hash": "7af6a50649f0308d61c6fe547f36c4555cd458df"
+          }
+        },
+        {
+          "client_id": "763893518463-jlfb8u6b7o97etaburqt32ni1r24v3hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtH-baW-mJOYasxL5z8wXwdhC_W46wRMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763893518463-jlfb8u6b7o97etaburqt32ni1r24v3hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
