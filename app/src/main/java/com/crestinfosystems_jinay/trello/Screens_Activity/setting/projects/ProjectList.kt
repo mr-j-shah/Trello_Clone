@@ -21,6 +21,9 @@ class ProjectList : AppCompatActivity() {
     var binding: ActivityProjectListBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityProjectListBinding.inflate(layoutInflater)
+        binding?.popUpBack?.setOnClickListener {
+            onBackPressed()
+        }
         super.onCreate(savedInstanceState)
         val layoutManager: RecyclerView.LayoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
